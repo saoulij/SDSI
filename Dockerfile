@@ -5,3 +5,6 @@ RUN yum -y install NetworkManager nc tcpdump vim dnsmasq iproute
 
 RUN systemctl enable NetworkManager
 
+ADD attacker.sh /scripts/
+ADD victim.sh /scripts/
+
