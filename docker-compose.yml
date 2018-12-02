@@ -4,6 +4,7 @@ services:
     build: .
     hostname: attacker
     command: /usr/sbin/init
+    privileged: true
     networks:
       vpcbr:
         ipv4_address: 10.0.0.2
@@ -12,6 +13,7 @@ services:
     build: .
     hostname: victim
     command: /usr/sbin/init
+    privileged: true
     networks:
       vpcbr:
         ipv4_address: 10.0.0.3
