@@ -9,7 +9,7 @@ lance-vm-centos7.sh
 ```
 Il est recommandé de choisir l'option 1.
 
-Changez le mot de passe de l'utilisateur ensimag (si vous ne le connaissez pas):
+Changez le mot de passe de l'utilisateur ensimag (si vous ne le connaissez pas, car sur la vm lors du `docker compose` peut se vérouiller la session):
 ```
 sudo passwd ensimag
 ```
@@ -20,7 +20,7 @@ Note: vous pouvez ignorer les warnings à propos de mot de passe trop simple.
 Télécharger les sources dans la virtual box. Ensuite, ouvrez un terminal et placez vous dans le répertoire des sources.
 Démarrez les containers attaquant et victime.
 ```
-docker-compose ps
+docker-compose up -d
 ```
 Note: Il est possible que docker-compose ne soit pas installé sur la virtual box.
 Si la commande ne marche pas, installez docker-compose. Vous pouvez utiliser le script fourni.
