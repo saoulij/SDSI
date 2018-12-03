@@ -5,7 +5,7 @@ Devoir 1 - Faille CVE-2018-1111
 
 Commencez par lancer la virtual box Centos7.
 ```
-./lance-vm-centos7.sh
+lance-vm-centos7.sh
 ```
 Il est recommandé de choisir l'option 1.
 
