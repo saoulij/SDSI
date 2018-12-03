@@ -5,9 +5,15 @@ Devoir 1 - Faille CVE-2018-1111
 
 Commencez par lancer la virtual box Centos7.
 ```
-./lance_vm_centos7.... #TODO
+lance-vm-centos7.sh
 ```
 Il est recommandé de choisir l'option 1.
+
+Changez le mot de passe de l'utilisateur ensimag (si vous ne le connaissez pas):
+```
+sudo passwd ensimag
+```
+Note: vous pouvez ignorer les warnings à propos de mot de passe trop simple.
 
 ## 2 Démarrer les containers
 
